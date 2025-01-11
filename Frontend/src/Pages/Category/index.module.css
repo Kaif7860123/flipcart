@@ -24,10 +24,11 @@
     margin:10px 0px;
     list-style: none;
 }
+ a{  
+    list-style: none;
+text-decoration: none
+ }
  
-a:hover{
-   text-decoration: none;
-}
 .CategoryDiv{
     width: 75%;
     background-color: rgb(13, 168, 228);
