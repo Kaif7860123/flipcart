@@ -29,6 +29,7 @@ if (process.env.NODE_ENV==="production"){
         res.sendFile(path.resolve(dirPath,"./Frontend/dist","index.html"))
     })
 }
-app.listen(3000,()=>{
-    console.log(`app listening at port 3000`)
+const Port=process.env.PORT||4000
+app.listen(Port,()=>{
+    console.log(`app listening at port ${Port}`)
 })
